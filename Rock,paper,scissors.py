@@ -36,7 +36,7 @@ elif game_user=="Rock":
 elif game_user=="Paper":
     
     if admin=="Scissors":
-        print("YOu Lose!!")
+        print("You Lose!!")
     elif admin=="Paper":
         print("Draw Again!!")
     else:
@@ -48,4 +48,3 @@ else:
 folder_path=r"D:/netw nn"
 file_path=os.path.join(folder_path,"Rock,paper,scissors.py")
 print("Save to :",folder_path)
-print("Save to:",file_path)
